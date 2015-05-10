@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #FFF;
+  background-image: url('/images/background.jpg');
+  background-size: cover;
+  background-position: center 11%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  width: 1000px;
+  margin: 50px auto;
+}
+
+h1 { 
+  font-weight: normal;
+  font-family: 'Rock Salt', serif;
+  color: #FFF;
+  margin: 150px auto 40px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.about {
+  width: 333px;;
+  margin: 80px auto 75px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.details {
+  width: 460px;
+  margin: 0 auto 75px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.details li {
+  width: 150px;
+  display: inline-block;
+  text-align: center;
+}
+
+a {
+  color: #565769;
+  background-color: #FFF;
+  padding: 13px;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto 50px;
+  width: 120px;
+  text-align: center;
+  border-radius: 40px;
+}
